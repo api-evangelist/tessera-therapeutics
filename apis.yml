@@ -1,8 +1,26 @@
 aid: tessera-therapeutics
 name: Tessera Therapeutics
-description: 'Tessera Therapeutics is a company surfaced as a portfolio company of softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Tessera Therapeutics is an early-stage life sciences company, founded and backed by
+  Flagship Pioneering, pioneering Gene Writing — a new category of genetic medicine designed to write
+  therapeutic messages into the genome to treat and potentially cure disease at its source. Its Gene
+  Writing platform uses mobile genetic elements delivered via lipid nanoparticles to insert genes and
+  exons, make small insertions and deletions, or change single or multiple DNA base pairs, with
+  applications spanning sickle cell disease, in vivo CAR-T, HIV, and other monogenic, metabolic,
+  autoimmune, and neurodegenerative diseases. This API Evangelist profile tracks the company as a
+  health-tech portfolio lead; Tessera is a therapeutics developer and does not currently publish a
+  public developer or API surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.tesseratherapeutics.com/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/tessera-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +30,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Health Tech
+- Biotechnology
+- Gene Writing
+- Genetic Medicine
+- Life Sciences
+- Gene Therapy
+- Pharmaceuticals
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tessera-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.tesseratherapeutics.com
+- type: Blog
+  url: https://www.tesseratherapeutics.com/news
+- type: Support
+  url: https://www.tesseratherapeutics.com/contact
+- type: Careers
+  url: https://www.tesseratherapeutics.com/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
